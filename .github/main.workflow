@@ -4,7 +4,7 @@ workflow "Validate" {
 }
 
 action "debug" {
-  uses = "actions/bin/debug"
+  uses = "actions/bin/debug@master"
 }
 
 action "Build Jekyll" {
