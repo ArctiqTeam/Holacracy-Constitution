@@ -1,0 +1,33 @@
+- selector: index_slider
+  captions: true
+  images:
+    - src: /assets/banners/beatenberg-2063366_1920.jpg
+      title: //your leading open source solution provider
+      alt: OPEN, COLLABORATIVE, SOCIAL , COMMUNITY.  Arctiq is your leading open source solutions provider, focusing on culture and process improvement through the adoption of automation and emerging technologies. Scroll down to learn more!
+    - src: /assets/banners/baseball-1091210_1280.jpg
+      title: //Arctiq Hits a Grand Slam with CDN Channel Elite Service Organization of the Year
+      alt: We are proud to announce we have been named Best Service Organization in Canada by CDN and IT World Canada, Canada’s top IT channel publication, in CDN’s 15th Annual Channel Elite Awards<br><button>Read More</button>
+      href: /our-blog/2017/cdn-channel-elite-service-organization-of-the-year/
+    - src: /assets/banners/partner-of-the-year.jpg
+      title: //Arctiq is Red Hat Canadian Partner of the Year
+      alt: Arctiq has been named Canadian Partner of the Year by Red Hat, Inc., the world's leading provider of open source solutions. Arctiq was honoured for their dedication to providing innovative open source solutions to Canadian customers. Specifically, Arctiq was recognized for a focus on innovative and emerging technologies, and leading the charge for services delivery for Red Hat in Canada<br><button>Read More</button>
+      href: /our-blog/press-release-partner-of-the-year/
+    - src: /assets/banners/CBC-image.png
+      title: //collaborative devops at CBC
+      alt: Arctiq and Red Hat have paired up to containerize the CBC's websites. Working with modern tools from Red Hat, anchored by the OpenShift Container Platform, Arctiq and CBC have worked collaboratively to containerize their web presence.<br><button>See the Video</button>
+      href: /our-blog/2017/collaborative-devops-at-cbc/
+    - src: /assets/banners/landscape-2124113_1920.jpg
+      title: //Arctiq is your Red Hat Premier partner
+      alt: Joining only a handful of Premier partners across Canada, Arctiq has achieved the top status of Red Hat partnership in less than one year of operation. Arctiq launched in early 2016 to address the services gap in modern transformational technology solutions, focusing on open source software and the services to enable their adoption in organizations across North America.<br><button>Read More</button>
+      href: /our-blog/news/press-release-redhat-premier/
+  settings:
+    height: 600
+    effect: "'fade'"
+    initialHeight:
+    maxHeight:
+    interval: 8000
+    transitionDuration:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:

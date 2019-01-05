@@ -1,0 +1,20 @@
+<ul id="events-upcoming">
+</ul>
+<ul id="events-past">
+</ul>
+   <script>
+     formatGoogleCalendar.init({
+       calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/arctiq.ca_bkdf5bg2vfq4st0q51brdg6ov8@group.calendar.google.com/events?key=AIzaSyBbFkftlUzRzAa69Rl9U_CKCtEF-r3CNLA',
+       past: false,
+       upcoming: true,
+       sameDayTimes: true,
+       pastTopN: 20,
+       upcomingTopN: 10,
+       recurringEvents: false,
+       itemsTagName: 'h3',
+       upcomingSelector: '#events-upcoming',
+       pastSelector: '#events-past',
+       upcomingHeading: '',
+       format: ['*date*', ': ', '*summary*', ' @ ', '*location*']
+     });
+   </script>

@@ -1,0 +1,11 @@
+<h3>Sponsors:</h3>
+
+<div class="left-row">
+{% for sponsor in include.sponsors %}
+  {% if page.sponsors contains sponsor.name %}
+  <div class="color-logo w3-image">
+    <img style="width: {{ sponsor.size }}px;" src="/assets/logos/{{ sponsor.logo }}">
+  </div>
+  {% endif %}
+{% endfor %}
+</div>

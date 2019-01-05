@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{% capture imagePath %}{{ page.slug }}/{{ page.image }}{% endcapture %}
+{% assign words = content | number_of_words %}
+{% if words < 200 %}
+  {% assign read_time = "1 minute" %}
+{% else %}
+  {% assign read_time = words | divided_by:200 | append: " minutes" %}
+{% endif %}
+<div class="banner-image" style="background-image: url('/assets/posts/{{ imagePath }}');">
+  <div class="post-meta">
+    <h2>{{ page.date | date_to_string }}</h2>
+    <h1>{{ page.title }}</h1>
+    <h2>Average Reading Time: ~{{ read_time }}</h2>
+    {% if page.comments %}
+    <a href="{{ page.url | absolute_url }}#disqus_thread"><h3>0 Comments</h3></a>
+    {% endif %}
+  </div>
+</div>
+<div class="author-wrap w3-hide-small">
+  <div class="author">
+    <a href="#" data-featherlight="#{{ site.data.authors[page.author].name | slugify }}">
+    <table>
+      <tr>
+        <td>
+          <img src="/assets/profiles/{{ site.data.authors[page.author].picture }}">
+        </td>
+        <td>
+          <span><p><strong>Author:</strong><br>{{ site.data.authors[page.author].name }}</p></span>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="main-content w3-container">
+  <div class="w3-row">
+    <div class="w3-container w3-threequarter">
+      <p class="meta w3-hide-medium w3-hide-large">Author: <a href="#" data-featherlight="#{{ site.data.authors[page.author].name | slugify }}">{{ site.data.authors[page.author].name }}</a></p>
+      <hr>
+      <div class="post">
+        {{ content }}
+      </div>
+      {% if page.tags != empty %}
+            <p>Tagged:</p>
+            <div class="tag-list">
+              {% for tag in page.tags %}
+              <div class="tag">
+                <a href="{{ site.tag_dir | prepend: '/' }}/{{ tag | uri_escape | downcase }}">{{ tag }}</a>
+              </div>
+              {% endfor %}
+            </div>
+      {% endif %}
+      {% include share_bar.html %}
+      {% if jekyll.environment == 'production' and page.comments == true %}
+        {% include disqus.html %}
+      {% endif %}
+      <hr>
+    </div>
+    <div class="w3-container w3-quarter">
+      <h2>//other topics</h2>
+      {% include tagcloud.html %}
+      <hr>
+      <br>
+    </div>
+  </div>
+</div>

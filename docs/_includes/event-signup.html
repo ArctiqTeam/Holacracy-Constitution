@@ -1,0 +1,73 @@
+<div class="event-form">
+  <form method="post" id="{{ page.title | downcase | replace: ' ', '-' | replace: ',', '-' }}" name="{{ page.title }}" action="{{ page.zapier }}" class="validate">
+    <div>
+      <div class="w3-row-padding">
+      	<label for="FNAME">First Name </label>
+      	<input type="text" value="" name="FNAME" class="required w3-input w3-border" id="FNAME" placeholder="" required>
+        <br>
+      </div>
+      <div class="w3-row-padding">
+      	<label for="LNAME">Last Name </label>
+      	<input type="text" value="" name="LNAME" class="required w3-input w3-border" id="LNAME" placeholder="" required>
+        <br>
+      </div>
+      <div class="w3-row-padding">
+        <label for="COMPANY">Company </label>
+        <input type="text" value="" name="COMPANY" class="required w3-input w3-border" id="COMPANY" placeholder="" required>
+        <br>
+      </div>
+      <div class="w3-row-padding">
+      	<label for="EMAIL">Email Address </label>
+      	<input type="email" value="" name="EMAIL" class="required email w3-input w3-border" id="EMAIL" placeholder="" required>
+        <br>
+      </div>
+      <div class="w3-row-padding">
+        <label for="NEWS">Sign-up for our Newsletter? </label>
+        <select name="NEWS" id="NEWS" class="w3-input w3-border">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+        <br>
+      </div>
+      <input type="hidden" value="{{ page.date | date_to_string }}" name="DATE">
+      <input type="hidden" value="{{ page.time }}" name="TIME">
+      <input type="hidden" value="{{ page.title }}" name="TITLE">
+      <input type="hidden" value="{{ page.location }}" name="LOC">
+      <input type="hidden" value="https://www.arctiq.ca/ical{% if page.ical_private %}_private{% endif %}/{{ page.date | date: '%Y-%m-%d' }}-{{ page.slug }}.ics" name="ICS">
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="asfdasdfasdfasd" tabindex="-1" value=""></div>
+      <br>
+      <div id="server-results" class="w3-row-padding"><!--This is for the response messages--></div>      
+      <div class="clear w3-row-padding">
+        <button type="submit" id="event-form-submit" class="arctiq-button w3-button w3-round w3-hover-gray button">Register</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+// POST form data to zapier on submit
+$("#{{ page.title | downcase | replace: ' ', '-' | replace: ',', '-' }}").submit(function(event){
+  event.preventDefault(); //prevent default action
+  var post_url = $(this).attr("action"); //get form action url
+  var request_method = $(this).attr("method"); //get form GET/POST method
+  var form_data = $(this).serialize(); //Encode form elements for submission
+  var success_msg = "<span><strong>Thank You for Registering!</strong> See You at the Event!</span><br>"
+  var error_msg = "<span><strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.</span><br>"
+
+  $('#event-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw" style="color: #fff;"></i>  Loading...');
+  $.ajax({
+    url: post_url,
+    type: request_method,
+    data: form_data,
+    success: function (data) {
+      $("#server-results").html(success_msg);
+      $("#event-form-submit").addClass('w3-hide');
+      $("#{{ page.title | downcase | replace: ' ', '-' | replace: ',', '-' }}").trigger("reset");
+    },
+    error: function (err) {
+      $("#server-results").html(error_msg);
+      $('#event-form-submit').html('Register');
+    }
+  });
+});
+</script>

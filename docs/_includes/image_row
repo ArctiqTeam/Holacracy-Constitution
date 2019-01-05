@@ -1,0 +1,24 @@
+{% case include.size %}
+{% when "S" %}
+{% assign image_size = "100px" %}
+{% when "M" %}
+{% assign image_size = "160px" %}
+{% when "L" %}
+{% assign image_size = "190px" %}
+{% when "XL" %}
+{% assign image_size = "240px" %}
+{% when "XXL" %}
+{% assign image_size = "320px" %}
+{% else %}
+{% assign image_size = "100%" %}
+{% endcase %}
+
+{% assign images = include.names | split: ',' %}
+
+<div class="centered-row">
+{% for image in images %}
+  <div class="centered-image" style="max-width: {{ image_size }}">
+    <img src="/assets/posts/{{ page.slug }}/{{ image }}">
+  </div>
+{% endfor %}
+</div>

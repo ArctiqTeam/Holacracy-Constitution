@@ -1,0 +1,18 @@
+---
+layout: page
+---
+<div class="post">
+  <hr>
+<!-- <h1>Tag: {{ page.tag }}</h1> -->
+<ul>
+{% for post in site.tags[page.tag] %}
+{% unless post.is_draft %}
+  <li><a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>({{ post.date | date_to_string }})<br>
+    {{ post.description }}
+    {{ post.excerpt }}
+  </li>
+{% endunless %}
+{% endfor %}
+</ul>
+</div>
+<hr>

@@ -1,0 +1,173 @@
+ocpday2:
+  name: OpenShift Day 2 Operations
+  icon: tachometer
+  summary: |
+    ## //openshift day 2 ops workshop overview
+
+    This bootcamp-style workshop is designed to give administrators a solid understanding of how to maintain and operate an OpenShift platform following the initial deployment.  The workshop is intended to give students an understanding of the tooling and methodologies involved in operating and troubleshooting real-world environments.
+     * Architecture review
+     * Resource management and security context constraints
+     * Patch management, backup/restore, software upgrades
+     * CloudForms management of container platforms
+     * Real-time monitoring and reporting
+     * Troubleshooting tactics
+
+    ## //openshift day 2 prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of OpenShift Container Platform.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)
+ocparch:
+  name: OpenShift Architecture and Implementation
+  icon: map
+  summary: |
+    ## //openshift architecture workshop overview
+
+    This bootcamp-style workshop is designed to give administrators a solid understanding of the various components of OpenShift Container Platform.  The workshop goes beyond the simple installation of the software and is intended to give students the best practices and methodologies behind a live deployment of OCP.
+     * Architecture deep dive
+     * Key architecture options and decisions
+     * Multi-master installation and basic configuration
+     * Storage configuration and management
+     * Authentication and authorization configuration and management
+     * Advanced cluster administration
+
+    ## //openshift architecture prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of OpenShift Container Platform.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)
+ocpdev:
+  name: OpenShift Developer Workflows
+  icon: exchange
+  summary: |
+    ## //openshift dev workshop overview
+
+    This bootcamp-style workshop is designed to give developers a solid understanding of how to develop within the OpenShift Container Platform.  The workshop is intended to give students an understanding of the tooling and capabilities available to developers within the OpenShift Container Platform.
+     * Architecture review
+     * Interface capabilities (WebUI, CLI)
+     * Build and deployment capabilities
+     * Continuous integration capabilities
+     * Scaling applications
+     * Troubleshooting application deployments
+
+    ## //openshift dev prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of OpenShift Container Platform.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)
+gitops:
+  name: Git Workflows for Operations
+  icon: github
+  summary: |
+    ## //github workflows workshop overview
+
+    These advanced hands-on bootcamp-style workshops are designed to give administrators a solid understanding of Git, with a focus on operations and integration to meet enterprise requirements. The workshop goes beyond the installation and basic operations, instead focusing on the following concepts:
+     * Git Enablement education and hands-on experiences
+     * Basics and background of Git, Workflows, Branches, Collaboration, and best practices
+     * An emphasis on Operations workflows with integration to Ansible automation is provided
+     * Note: Arctiq clients often combine the Git Workflows for Operations with Ansible Tower Day 2 Operations
+
+    ## //github workflows prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of Ansible Tower.  Students should be prepared with:
+     * Basic Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)
+     * SSH and Web Access to AWS (for labs)
+     * Access to GitHub.com
+ansibletower:
+  name: Ansible Tower Day 2 Operations
+  icon: tasks
+  summary: |
+    ## //ansible tower workshop overview
+
+    This advanced hands-on bootcamp-style workshop is designed to give administrators a deep understanding of Ansible Tower, with a focus on operations and integration to meet enterprise requirements. The workshop goes beyond the installation and basic operations, instead focusing on concepts such as:
+     * Credentials and End-to-End Security
+     * RBAC and User Management
+     * SCM and Git Integration
+     * Inventory Management
+     * Ansible Core—> Tower Principles and Best Practices
+     * Troubleshooting and Reporting
+
+    ## //ansible tower prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of Ansible Tower.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)
+     * Basic Ansible knowledge
+terraform:
+  name: Advanced Cloud Infrastructure Building with Terraform
+  icon: globe
+  summary: |
+    ## //terraform workshop overview
+
+    This bootcamp-style workshop is designed to give students an overview of Hashicorp Terraform hybrid cloud provisioning and management.  The focus is core concepts such as provisioning, extendending workflows to support orchestration and management, configuration, and infrastructure as code:
+     * Terraform Architecture and Infrastructure as Code
+     * Cloud Provisioning with Terraform (AWS, Azure, VMware, etc)
+     * Statefiles - Local vs Remote
+     * Advanced Integration (Vault, Packer, Ansible)
+     * Code Efficiencies with Modules
+
+    ## //terraform prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of Terraform.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Beginner to intermediate Cloud provisioning and management experience
+     * Laptop (Windows, OSX, or Linux)
+vault:
+  name: Dynamic Secrets Management with Vault
+  icon: user-secret
+  summary: |
+    ## //vault workshop overview
+
+    This advanced hands-on bootcamp-style workshop is designed around HashiCorp’s Vault. The workshop contains core concepts in both creating operational deployments of Vault, as well as integrating Vault and secrets management into other applications:
+     * Vault Architecture and Secrets Management
+     * Secret Backends
+     * Vault HA Deployments
+     * Consul and Vault Integrations
+     * Policy Management
+     * Leveraging Vault in Applications (Terraform, Ansible, Jenkins)
+
+    ## //vault prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of Vault.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Beginner to intermediate Cloud provisioning and management experience
+     * Laptop (Windows, OSX, or Linux)
+satadvanced:
+  name: Satellite 6 Advanced
+  icon: cloud-download
+  summary: |
+    ## //satellite advanced workshop overview
+
+    This advanced bootcamp-style workshop is designed to give administrators a solid understanding of the various components of Red Hat Satellite 6.  The workshop goes beyond the simple installation of the software and is intended to give students the best practices and methodologies behind a live deployment of Satellite.
+     * Content and lifecycle management deep dive
+     * Security audit integration - OpenSCAP
+     * Configuration management options
+     * Provisioning workflow and customization
+     * Troubleshooting and monitoring
+
+    ## //satellite advanced prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world deployment scenarios and configuration of Red Hat Satellite.  Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)
+linuxfoundations:
+  name: Linux Foundations
+  icon: code
+  summary: |
+    ## //linux workshop overview
+
+    This bootcamp-style workshop is designed to teach Linux foundational skills to current Windows administrators.  Uniquely delivered to students with a “real world” Day-2 operational approach, taught using a “glossary” approach - comparing and contrasting students’ existing Windows skills to Linux features and approaches. Topics include:
+     * Working with the command line
+     * Package management (MSI vs. Yum)
+     * User administration (AD vs. IdM vs. local users)
+     * Systems management (Satellite vs. SCOM)
+     * Web serving (IIS vs. Apache)
+     * Process and system monitoring, including logging
+     * File and directory permissions
+
+    ## //linux prerequisites
+
+    This workshop is a condensed format workshop and focuses on real-world Linux operational tasks. Students should be prepared with:
+     * Intermediate level Linux / RHEL experience
+     * Laptop (Windows, OSX, or Linux)

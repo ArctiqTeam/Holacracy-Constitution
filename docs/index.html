@@ -1,0 +1,137 @@
+---
+layout: default
+image_sliders:
+  - index_slider
+image_sliders_load_all: true
+---
+<div>
+{% include slider.html selector="index_slider" %}
+</div>
+{% include scrollarrow.html %}
+{% if jekyll.environment == 'production' %}
+  {% include intercom.html %}
+{% endif %}
+<div class="main-content" id="main-content">
+  <hr>
+  <h1>//what we do</h1>
+  <p>Arctiq is a services-led firm providing expertise in the new world of IT transformation.  We help clients build continuous improvement strategies using automation, orchestration, DevOps methodologies, security, and customized workflows. Arctiq helps development teams focus on development efforts and not infrastructure.  Efficiencies are achieved through microservices and container-based solutions, self-service enablement, and repeatable deployment methodologies.  Arctiq’s solutions help reduce risk and simplify tasks through standardized frameworks, workflow automation, and foundational IT practices.</p>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-padding-large">
+      <div class="w3-card-2 card">
+        <h3 onclick="accordian('card-devops')">DevOps Consulting</h3>
+      </div>
+      <div id="card-devops" class="w3-card-2 w3-container w3-hide w3-animate-opacity">
+        <p>Focused on the business strategy, planning, and technology process transformation. This phase is generally the lead up to technical delivery.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-padding-large">
+      <div class="w3-card-2 card">
+        <h3 onclick="accordian('card-microservices')">Microservices & Container Technologies</h3>
+      </div>
+      <div id="card-microservices" class="w3-card-2 w3-container w3-hide w3-animate-opacity">
+        <p>Consulting through architecture, delivery, and operational tooling (Red Hat OpenShift, Docker, Kubernetes, SysDig, etc.).</p>
+      </div>
+    </div>
+    <div class="w3-third w3-padding-large">
+      <div class="w3-card-2 card">
+        <h3 onclick="accordian('card-security')">Integrated Security</h3>
+      </div>
+      <div id="card-security" class="w3-card-2 w3-container w3-hide w3-animate-opacity">
+        <p>Engaging security teams earlier in the development cycle, including supporting tooling and approaches (Satellite, IdM, Aqua Security, F5, Sysdig).</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-padding-large">
+      <div class="w3-card-2 card">
+        <h3 onclick="accordian('card-cicd')">CI/CD Pipelines</h3>
+      </div>
+      <div id="card-cicd" class="w3-card-2 w3-container w3-hide w3-animate-opacity">
+        <p>Assisting with organization's goals to realign Ops and Dev, with strategies and approaches for continuous improvement (OpenShift, GitHub, Jenkins).</p>
+      </div>
+    </div>
+    <div class="w3-third w3-padding-large">
+      <div class="w3-card-2 card">
+        <h3 onclick="accordian('card-automation')">Automation</h3>
+      </div>
+      <div id="card-automation" class="w3-card-2 w3-container w3-hide w3-animate-opacity">
+        <p>For everything from IT Ops automation, to supporting modern software development and delivery workflows (Ansible, Workflow automation).</p>
+      </div>
+    </div>
+    <div class="w3-third w3-padding-large">
+      <div class="w3-card-2 card">
+        <h3 onclick="accordian('card-foundations')">Foundations</h3>
+      </div>
+      <div id="card-foundations" class="w3-card-2 w3-container w3-hide w3-animate-opacity">
+        <p>Provide experience and best practice when delivering automated, secure infrastructure services (RHEL, VMware, RHV, Windows, AWS, Microsoft Azure, Google Cloud Platform).</p>
+      </div>
+    </div>
+  </div>
+  <p>Arctiq’s benefits to business are real and proven; increased time to revenue, decreased costs, vastly improved productivity, and smart integrated security. Applying our Lean + MVP approach, Arctiq ensures our clients gain progress with each step, realizing significant time-to-value improvements.</p>
+  <hr>
+</div>
+
+<div class="banner-image" style="background-image: url('/assets/banners/action-2277292_1920.jpg');">
+  <div class="post-meta">
+    <h1>//our customers</h1>
+    <h2>Arctiq takes a unique approach to solving the modernization challenge for our customers.  From Discovery to Knowledge Transfer, Arctiq's customized approach to your requirements will deliver results quickly and reliably.</h2>
+  </div>
+</div>
+<div class="main-content">
+  <hr>
+{% include customer_logos.html %}
+  <hr>
+</div>
+
+<div class="banner-image" style="background-image: url('/assets/banners/container-1611490_1920.jpg');">
+  <div class="post-meta">
+    <h1>//our ecosystem</h1>
+    <h2>Arctiq’s software partners are built upon open source solutions for modern technical solution delivery.
+    Through our strategic packaged offerings, Arctiq helps integrate ecosystem tools and software into a single
+    cohesive end-to-end solution for our clients.</h2>
+  </div>
+</div>
+<div class="main-content">
+  <hr>
+  <div class="centered-row">
+    <div class="logo w3-image">
+      <a href="https://cloud.google.com/"><img src="/assets/logos/gcp.png"></a>
+    </div>
+    <div class="logo w3-image">
+      <a href="https://github.com/features"><img style="max-width: 150px;" src="/assets/logos/GitHub_Logo.png"></a>
+    </div>
+    <div class="logo w3-image">
+      <a href="https://azure.microsoft.com/"><img src="/assets/logos/azure.png"></a>
+    </div>
+  </div>
+  <div class="centered-row">
+    <div class="logo w3-image">
+      <a href="https://www.hashicorp.com"><img src="/assets/logos/hashicorp_logo-long.png"></a>
+    </div>
+    <div class="logo w3-image">
+      <a href="https://www.redhat.com/en"><img style="max-width: 220px;" src="/assets/logos/RH-Logo.png"></a>
+    </div>
+    <div class="logo w3-image">
+      <a href="https://www.sysdig.org"><img src="/assets/logos/sysdig_logo.png"></a>
+    </div>
+  </div>
+  <div class="centered-row">
+    <div class="logo w3-image">
+      <a href="https://www.f5.com"><img style="max-width: 100px;" src="/assets/logos/F5_Networks_logo.png"></a>
+    </div>
+    <div class="logo w3-image">
+      <a href="https://www.aquasec.com/"><img src="/assets/logos/aqua_logo.png"></a>
+    </div>
+    <div class="logo w3-image">
+      <a href="https://www.metanetworks.com"><img style="max-width: 150px;" src="/assets/logos/Meta-logo.png"></a>
+    </div>
+  </div>
+  <p>Arctiq does not resell hardware, nor cloud platforms, rather we support our clients when deploying on their premise, or in any cloud.
+    By remaining agnostic on the base platform, Arctiq is able to guide our clients toward the best solution every time.
+    We work closely with Google Cloud Platform, Microsoft Azure, AWS, IBM, even on premise environments - many of our critical client deployments are performed on-premise with an eye to future hybrid cloud connectivity.</p>
+  <p>Arctiq’s ecosystem also includes key VAR’s who represent our routes to market, making it easy for clients with traditional IT procurement vehicles to work with us on solutions instead of paperwork.</p>
+  <hr>
+</div>
+
+{% include newsletter.html %}

@@ -1,0 +1,26 @@
+- link: /
+  name: Home
+- link: dropdown
+  name: Solutions
+  subitems:
+    - link: /solutions/blueprints
+      name: Blueprints
+    - link: /solutions/vsm
+      name: VSM
+    - link: /solutions/infra-as-code
+      name: Infrastructure as Code
+    - link: /solutions/meta-networks
+      name: Meta Networks
+    - link: /solutions/google
+      name: Google Solutions
+- link: /our-blog/
+  name: Our Blog
+- link: /events/
+  name: Events
+- link: /workshops/
+  name: Workshops
+- link: /careers/
+  name: Careers
+- link: /about-us/
+  name: About Us
+  highlight: true

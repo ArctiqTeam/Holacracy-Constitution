@@ -1,0 +1,47 @@
+<footer class="footer-inner">
+  <div class="footer-image" style="background-image: url('/assets/banners/footstep-snow.jpeg');">
+    <div class="footer-meta">
+      <div class="w3-container w3-center">
+        <h1>//take the first step</h1>
+      </div>
+      <div class="w3-row">
+        <div class="w3-quarter w3-hide-small">
+          <p></p>
+        </div>
+        <div class="w3-quarter">
+          <table class="side-by-side">
+            <tr>
+              <td><i class="fa fa-twitter" aria-hidden="true"></i></td>
+              <td><a href="http://www.twitter.com/ArctiqTeam/" target="_blank">@arctiqteam</a></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-linkedin" aria-hidden="true"></i></td>
+              <td><a href="http://www.linkedin.com/company/arctiq-inc./" target="_blank">Arctiq Inc.</a></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-github" aria-hidden="true"></i></td>
+              <td><a href="http://www.github.com/ArctiqTeam/" target="_blank">github.com/arctiqteam</a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="w3-quarter">
+          <table class="side-by-side">
+            <tr>
+              <td><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+              <td><span style="color: rgba(255,255,255,0.4);"><strong>Toronto Office</strong></span><br><span style="color: rgba(255,255,255,0.4);">{{ site.address }}</span></td>
+            </tr>
+          </table>
+        </div>
+        <div class="w3-quarter w3-hide-small">
+          <p></p>
+        </div>
+      </div>
+      <div class="w3-container w3-center cright">
+        <p>Arctiq Inc. ©&nbsp;{{ site.time | date: '%Y' }}</p>
+      </div>
+    </div>
+  </div>
+
+{% include slider_scripts.html %}
+
+</footer>

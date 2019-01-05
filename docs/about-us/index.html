@@ -1,0 +1,34 @@
+---
+layout: page
+title: //about us
+description: "Who is Arctiq?  Where are we located?  Meet the Team!  <br>Learn more about Arctiq, and don't hesitate to reach out by clicking the chat icon below."
+image: mount-everest-89590_1920.jpg
+profiles: true
+regenerate: true
+---
+<hr>
+<p>Arctiq Inc. is a Toronto based services led solution provider focused on helping our clients modernize their approach to IT delivery.  Arctiq’s DevOps and Automation focused solutions span IT Operations, Software Development, and Applications (typically the “business” owners).  Our team-based project delivery approach ensures we always have the correct skill-sets engaged to solve client challenges.</p>
+<p>We are proud to be “down to earth” and easy to work with.  We always deliver services and solutions at our client’s pace of adoption, and push the envelope when possible.</p>
+<h1>//meet the team</h1>
+
+<div class="centered-row">
+{% for author in site.data.authors %}
+{% assign name = author[1].name | split: ' ' %}
+{% assign titles = author[1].title | split: '|' %}
+  <div class="profile">
+    <a href="#" data-featherlight="#{{ author[1].name | slugify }}"><img src="/assets/profiles/{{ author[1].picture }}">
+    <h2>{{ name[0] }}<br>{{ name[1] }}</h2>{{ titles[0] }}<br>{{ titles[1] }}<br>{{ titles[2] }}</a>
+  </div>
+{% endfor %}
+</div>
+<h1>//homebase</h1>
+<table class="side-by-side">
+  <tr>
+    <td><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+    <td><span><strong>Toronto Office</strong></span><br><span>{{ site.address }}</span></td>
+  </tr>
+</table>
+<div class=google-maps>
+<iframe src="https://snazzymaps.com/embed/2983" style="border:none;"></iframe>
+</div>
+<hr> 

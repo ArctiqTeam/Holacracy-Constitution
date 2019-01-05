@@ -1,0 +1,17 @@
+{% if site.data.comments[post_slug] %}
+<br>
+<div id="comments">
+<h2>//comments</h2>
+{% assign comments = site.data.comments[post_slug] | where: 'replying_to', '' %}
+{% for comment in comments | sort: 'date' %}
+  {% assign index       = forloop.index %}
+  {% assign r           = comment.replying_to %}
+  {% assign replying_to = r | to_integer %}
+  {% assign email       = comment.email %}
+  {% assign name        = comment.name %}
+  {% assign date        = comment.date %}
+  {% assign message     = comment.message %}
+  {% include comment.html index=index replying_to=replying_to email=email name=name date=date message=message %}
+{% endfor %}
+</div>
+{% endif %}

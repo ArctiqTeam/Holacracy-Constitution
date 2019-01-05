@@ -1,0 +1,67 @@
+<br>
+<h2>//leave a comment</h2>
+<a id="cancel-comment-reply-link" class="w3-hide" rel="nofollow" href="#" onclick="return cancelReply('comment-replying-to')">
+  <i class="fa fa-undo" aria-hidden="true"></i><span> - Cancel Reply</span></a>
+<p>Your email will not be shared<p>
+<div class="comment-form">
+  <form method="post" id="comment-form" action="https://api.staticman.net/v2/entry/arctiqteam/arctiqteam.github.io/master/comments" class="validate">
+    <div>
+      <div class="w3-row-padding">
+      	<label for="fields[name]">Name</label>
+      	<input type="text" value="" name="fields[name]" class="required w3-input w3-border" placeholder="" required>
+        <br>
+      </div>
+      <div class="w3-row-padding">
+      	<label for="fields[email]">Email Address - Used for notifications</label>
+      	<input type="email" value="" name="fields[email]" class="required email w3-input w3-border" placeholder="" required>
+        <br>
+      </div>
+      <div class="w3-row-padding">
+        <label for="fields[message]">Comment - (<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is accepted)</label>
+        <textarea type="text" rows="5" name="fields[message]" class="required w3-input w3-border" required></textarea>
+      </div>
+      <div class="w3-row-padding">
+        <label for="form-subscribe">I want to be notified of new comments</label>
+        <input id="form-subscribe" type="checkbox" name="options[subscribe]" value="email" class="w3-input w3-border">
+      </div>
+      <div style="display: none;">
+        <input type="address" name="fields[address]" placeholder="Address (do not fill!)">
+        <input type="hidden" name="options[slug]" value="{{ post_slug }}">
+        <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+        <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+        <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+      </div>
+      <br>
+      <div id="server-results" class="w3-row-padding"><!--This is for the response messages--></div>
+      <div class="clear w3-row-padding">
+        <button type="submit" id="comment-form-submit" class="arctiq-button w3-button w3-round w3-hover-gray button">Submit Comment</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+$("#comment-form").submit(function(event){
+    event.preventDefault(); //prevent default action
+    var post_url = $(this).attr("action"); //get form action url
+    var request_method = $(this).attr("method"); //get form GET/POST method
+    var form_data = $(this).serialize(); //Encode form elements for submission
+    var success_msg = "<span><strong>Thanks for your comment!</strong> It will show on the site once it has been approved.</span><br>"
+    var error_msg = "<span><strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again.</span><br>"
+
+    $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw" style="color: #fff;"></i>  Loading...');
+    $.ajax({
+      url: post_url,
+      type: request_method,
+      data: form_data,
+      success: function (data) {
+        $("#server-results").html(success_msg);
+        $("#comment-form-submit").addClass('w3-hide');
+        $("#comment-form").trigger("reset");
+      },
+      error: function (err) {
+        $("#server-results").html(error_msg);
+        $('#comment-form-submit').html('Submit Comment');
+      }
+    });
+});
+</script>

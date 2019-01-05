@@ -1,0 +1,3 @@
+<div class="youtube">
+  <iframe src="//www.youtube.com/embed/{{ include.name }}" frameborder="0" allowfullscreen class="video"></iframe>
+</div>

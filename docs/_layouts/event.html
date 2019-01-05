@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<div class="banner-image" style="background-image: url('/assets/events/{{ page.slug }}/{{ page.image }}');">
+  <div class="post-meta">
+    <h2><i class="fa fa-calendar-o" aria-hidden="true"></i>  {{ page.date | date: '%b %d, %Y' }}  {{ page.start | date: '%l:%M %P' }} - {{ page.end | date: '%l:%M %P' }} {{ page.TZ }}</h2>
+    <h1>{{ page.title }}</h1>
+    <h2><i class="fa fa-map-marker" aria-hidden="true"></i>  {{ page.location }}</h2>
+  </div>
+</div>
+
+<div class="main-content w3-container">
+  <div class="w3-row">
+    <hr>
+    <div class="w3-container w3-threequarter">
+      <div class="event-detail">
+        <h2>//event details</h2>
+        {{ content }}
+        {% if page.sponsors %}
+        {% include sponsors sponsors=site.data.sponsors %}
+        {% endif %}
+        <hr>
+      </div>
+    </div>
+    <div class="w3-container w3-quarter">
+      <h2>//location</h2>
+      {% unless page.webinar %}
+      <div style="padding-bottom: 0;" class="google-maps map-directions">
+        <a href="https://www.google.com/maps/dir//{{ page.location | replace: ' ', '+' }}">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?autoscale=1&size=300x200&maptype=roadmap&key=AIzaSyCZCgto2O1s__U42RJRUrPtVXUyd7JyIoo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x183669%7Clabel:%7C{{ page.location }}" alt="Google Map of 71 Victoria Street, Toronto, ON">
+        </a>
+      </div>
+      {% endunless %}
+      {% unless page.webinar %}<a href="https://www.google.com/maps/dir//{{ page.location | replace: ' ', '+' }}">{% endunless %}
+        <table class="side-by-side">
+          <tr>
+            <td><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+            <td><span><strong>{{ page.location }}</strong></span></td>
+          </tr>
+        </table>
+      <!-- {% unless page.webinar %}</a>{% endunless %} -->
+      {% if page.registration_open %}
+      <h2>//register now</h2>
+      {% if page.registration %}
+      <button class="arctiq-button w3-button w3-round w3-hover-gray button" onClick="window.open('{{ page.registration }}');">Signup</button>
+      {% else %}
+        {% include event-signup.html %}
+      {% endif %}
+      {% else %}
+      <br>
+      <h2>//registration isn't open ...</h2>
+      <p>When registration is open, there will be a signup form here! Be sure to signup for our Newsletter below to receive invites for upcoming events!</p>
+      <br>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% include newsletter.html %}

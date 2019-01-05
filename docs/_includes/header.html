@@ -1,0 +1,63 @@
+<header class="site-header" role="banner">
+  <nav>
+    <div class="navbar w3-bar">
+      <div class="site-logo">
+        <a href="/"><img src="/assets/main-logo.png" alt="Arctiq" title="Arctiq" class="w3-image"></a>
+      </div>
+      <div class="navbar-links">
+        {% for item in site.data.navigation reversed %}
+          {% if item.link == "dropdown" %}
+        <div class="w3-dropdown-hover w3-right">
+          <div>
+            <span class="navbar-element w3-bar-item w3-mobile w3-right w3-hide-small w3-hide-medium">{{ item.name }}</span>
+            <div class="w3-dropdown-content dropdown-navbar">
+              {% for subitem in item.subitems %}
+              <a href="{{ subitem.link }}" class="navbar-element w3-mobile w3-hide-small w3-hide-medium">{{ subitem.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+          {% else %}
+        <a href="{{ item.link }}" class="navbar-element w3-bar-item w3-mobile w3-right w3-hide-small w3-hide-medium"{% if item.link == page.url %} style="color: #fff !important; font-weight: bold;"{% endif %}>{{ item.name }}
+        </a>
+          {% endif %}
+        {% endfor %}
+        <a href="javascript:void(0);" class="mobile-navbar-element w3-bar-item w3-right w3-hide-large" onclick="mobilenavmenu()">&#9776;</a>
+      </div>
+    </div>
+
+    <div id="mobile-nav" class="mobile-navbar w3-bar-block w3-hide w3-hide-large">
+      {% for item in site.data.navigation %}
+        {% if item.link == "dropdown" %}
+        <div class="w3-dropdown-click">
+          <a class="mobile-navbar-element w3-bar-item" onclick="mobilenavsubmenu()">{{ item.name }}</a>
+          <div id="mobile-nav-submenu" class="w3-dropdown-content">
+          {% for subitem in item.subitems %}
+            <a href="{{ subitem.link }}" class="mobile-navbar-element w3-bar-item" style="color: rgba(24,54,105,0.8) !important;">{{ subitem.name }}</a>
+          {% endfor %}
+          </div>
+        </div>
+        {% else %}
+        <a href="{{ item.link }}" class="mobile-navbar-element w3-bar-item"{% if item.link == page.url %} style="color: #fff !important; font-weight: bold;"{% endif %}>{{ item.name }}
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% include mobile_nav.html %}
+  </nav>
+</header>
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    var $sitelogo = $(".site-logo");
+    var $mobile = $(".mobile-navbar");
+    var $navlinks = $(".navbar-links");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $sitelogo.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $mobile.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $navlinks.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+<!-- {% if item.highlight == true %}class="nav-highlight"{% endif %} {% if item.link == page.url and item.highlight != true %}class="active-nav-link"{% endif %} {% if item.link == page.url and item.highlight == true %}class="nav-highlight active-nav-link"{% endif %} -->
