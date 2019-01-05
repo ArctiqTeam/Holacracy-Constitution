@@ -1,14 +1,14 @@
 workflow "Validate" {
   on = "push"
-  resolves = ["bin"]
-}
-
-action "Build Jekyll" {
-  uses = "ArctiqTeam/jekyll-build@master"
+  resolves = ["Build Jekyll"]
 }
 
 action "bin" {
   uses = "actions/bin/sh@master"
-  needs = ["Build Jekyll"]
-  args = ["ls -ltr"]
+  args = ["chmod -R 777 /github/workspace"]
+}
+
+action "Build Jekyll" {
+  uses = "ArctiqTeam/jekyll-build@master"
+  needs = ["bin"]
 }
