@@ -3,9 +3,9 @@ workflow "Validate" {
   resolves = ["bin"]
 }
 
-action "GitHub Action for Docker" {
-  uses = "actions/docker/cli@76ff57a"
-  args = "run -v $(pwd):/srv/jekyll -it jekyll/jekyll:pages jekyll build --drafts"
+action "Build Jekyll" {
+  uses = "ArctiqTeam/jekyll-build@master"
+  secrets = [""]
 }
 
 action "bin" {
