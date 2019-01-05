@@ -10,5 +10,5 @@ action "Build Jekyll" {
 action "bin" {
   uses = "actions/bin/sh@master"
   needs = ["Build Jekyll"]
-  args = "[\"ls -ltr\"]"
+  args = ["ls -ltr"]
 }
