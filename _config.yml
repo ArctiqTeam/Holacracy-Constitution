@@ -25,16 +25,10 @@ twitter_username: ArctiqTeam
 github_username:  ArctiqTeam
 markdown: kramdown
 timezone: UTC
+safe: No
 #theme: minima
 # Tags
 tag_dir: tag
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-redirect-from
 
 defaults:
   -
@@ -54,3 +48,9 @@ exclude:
   - CNAME
   - CONTRIBUTING.md
   - README.md
+  - Holacracy-Constitution.md
+  - LICENSE.md
+  - "Adoption Declaration.md"
+  - Discussions.md
+  - FAQ.md
+  - Appendix-A.md

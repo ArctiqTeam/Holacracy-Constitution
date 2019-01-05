@@ -93,6 +93,9 @@ h3 {
   line-height: 1.2em;
   padding-top: 0.5em;
 }
+h4 {
+  color: rgb(24,54,105);
+}
 p,span {
   color: rgba(24,54,105,0.6);
   font-weight: 400;
