@@ -1,6 +1,6 @@
 workflow "Validate" {
   on = "push"
-  resolves = ["Validate Site"]
+  resolves = ["Git Push","Validate Site"]
 }
 
 action "bin" {
