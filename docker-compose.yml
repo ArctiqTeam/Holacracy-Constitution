@@ -5,4 +5,3 @@ jekyll:
         - 4001:4000
     volumes:
         - .:/srv/jekyll:Z
-        - ../.:/srv:Z
