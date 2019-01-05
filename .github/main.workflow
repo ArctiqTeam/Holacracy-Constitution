@@ -16,5 +16,5 @@ action "Build Jekyll" {
 action "Vaidate Site" {
   uses = "ArctiqTeam/jekyll-ci/validate@master"
   needs = ["Build Jekyll"]
-  args = ["--url-ignore "https://www.arctiq.ca/tag/,/tag/" --assume_extension --allow_hash_href --http-status-ignore "999" --empty_alt_ignore --check_html _site"]
+  args = ['--url-ignore "https://www.arctiq.ca/tag/,/tag/" --assume_extension --allow_hash_href --http-status-ignore "999" --empty_alt_ignore --check_html _site']
 }
