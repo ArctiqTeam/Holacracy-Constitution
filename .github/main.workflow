@@ -3,8 +3,13 @@ workflow "Validate" {
   resolves = ["bin"]
 }
 
+action "debug" {
+  uses = "actions/bin/debug"
+}
+
 action "Build Jekyll" {
   uses = "ArctiqTeam/jekyll-build@master"
+  needs = ["debug"]
 }
 
 action "bin" {
