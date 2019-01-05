@@ -8,6 +8,17 @@ action "bin" {
   args = ["chmod -R 777 /github/workspace"]
 }
 
+action "python_test {
+  uses = "actions/bin/sh@master"
+  args = ["echo $(date) > test.txt"]
+}
+
+action "Git Push" {
+  uses = "ArctiqTeam/jekyll-ci/git_push@master"
+  needs = ["python_test"]
+  args = "tag gen"
+}
+
 action "Build Jekyll" {
   uses = "ArctiqTeam/jekyll-ci/build@master"
   needs = ["bin"]
