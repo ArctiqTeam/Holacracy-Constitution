@@ -20,18 +20,10 @@ address: Arctiq, 41 Britain Street, Suite 302, Toronto, ON, M5A 1R7, Canada
 description: > # this means to ignore newlines until "baseurl:"
   Arctiq is a services-led firm providing expertise in the new world of IT transformation.  We help clients build continuous improvement strategies using automation, orchestration, DevOps methodologies, security, and customized workflows. Arctiq helps development teams focus on development efforts and not infrastructure.  Efficiencies are achieved through microservices and container-based solutions, self-service enablement, and repeatable deployment methodologies.  Arctiq’s solutions help reduce risk and simplify tasks through standardized frameworks, workflow automation, and foundational IT practices.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.arctiq.ca" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://constitution.arctiq.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ArctiqTeam
 github_username:  ArctiqTeam
-permalink: /our-blog/:year/:i_month/:i_day/:title/
-paginate: 25
-paginate_path: "/our-blog/page:num/"
-disqus_config:
-  shortname: arctiqblog
-# Build settings
 markdown: kramdown
-google_analytics: true
-future: true
 timezone: UTC
 #theme: minima
 # Tags
@@ -44,123 +36,21 @@ plugins:
   - jemoji
   - jekyll-redirect-from
 
-collections:
-  ical:
-    output: true
-    permalink: /:collection/:year-:month-:day-:title.ics/
-    output_ext: ics
-    title: Cal
-  ical_private:
-    output: true
-    permalink: /:collection/:year-:month-:day-:title.ics/
-    output_ext: ics
-    title: Cal Private
-  events:
-    output: true
-    permalink: /:collection/:year/:i_month/:i_day/:title/
-    title: Events
-  draft_events:
-    output: true
-    permalink: /:collection/:year/:i_month/:i_day/:title/
-    title: Draft Events
-  private_events:
-    output: true
-    permalink: /:collection/:year/:i_month/:i_day/:title/
-    title: Private Events
-  drafts:
-    output: true
-    permalink: /:collection/:year/:i_month/:i_day/:title/
-    title: Drafts
-
-    # post_dirs: false
-
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "page"
-  -
-    scope:
-      path: "_ical"
-    values:
-      layout: "ical"
-  -
-    scope:
-      path: "_ical_private"
-    values:
-      layout: "ical"
-  -
-    scope:
-      path: "_events"
-    values:
-      layout: "event"
-      is_post: true
-  -
-    scope:
-      path: "_draft_events"
-    values:
-      layout: "event"
-      is_post: true
       robots: noindex
-      is_draft: true
-  -
-    scope:
-      path: "_private_events"
-    values:
-      layout: "private_event"
-      is_post: true
-      robots: noindex
-  -
-    scope:
-      path: "_drafts"
-    values:
-      comments: false
-      layout: "post"
-      is_post: true
-      robots: noindex
-      is_draft: true
-  -
-    scope:
-      path: "_posts"
-    values:
-      comments: true
-      layout: "post"
-      is_post: true
 
-repository: ArctiqTeam/ArctiqTeam.github.io
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 exclude:
   - empty_folder*
-  - openshift/
   - vendor/
   - bundle/
-  - posts_to_migrate/
   - Dockerfile*
   - Gemfile*
   - docker-compose.yml
-  - tag_generator.py
-  - publish_draft.py
-  - create_draft.py
-  - create_event.py
-  - unpublish_draft.py
-  - Jenkinsfile
   - CNAME
-  - arctiqtest.html
-  - staticman.yml
-  - parallax.html
-  - newslidertest.html
   - CONTRIBUTING.md
   - README.md
-  - fonts_old/
-  - cloudbuild.yaml

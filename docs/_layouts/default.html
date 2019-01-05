@@ -3,16 +3,9 @@
 {% include head.html %}
   <body>
 {% include header.html %}
-{% if jekyll.environment == 'production' %}
-  {% include intercom.html %}
-{% endif %}
 <div>
     {{ content }}
 </div><!-- /.container -->
-{% include profiles.html %}
 {% include footer.html %}
-<!-- {% include flowtype.html %} -->
-{% include slider_scripts.html %}
-  <script id="dsq-count-scr" src="https://{{ site.disqus_config.shortname }}.disqus.com/count.js" async></script>
   </body>
 </html>

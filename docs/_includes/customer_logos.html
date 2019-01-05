@@ -1,8 +1,0 @@
-{% assign logo_path = /assets/logos %}
-<div class="centered-row">
-{% for customer in site.data.customers %}
-  <div class="logo w3-image">
-    <img style="width: {{ customer[1].size }}px;" src="/assets/logos/{{ customer[1].logo }}">
-  </div>
-{% endfor %}
-</div>
