@@ -5,7 +5,7 @@ workflow "Validate" {
 
 action "bin" {
   uses = "actions/bin/sh@master"
-  args = ["chmod -R 777 /github/workspace"]
+  args = ["mkdir _site && chmod -R 777 _site"]
 }
 
 action "python_test" {
