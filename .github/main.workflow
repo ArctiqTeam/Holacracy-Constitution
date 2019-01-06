@@ -10,7 +10,7 @@ action "bin" {
 
 action "python_test" {
   uses = "actions/bin/sh@master"
-  args = ["echo $(date) > test.txt"]
+  args = ["echo $(date) >> test.txt"]
 }
 
 action "Git Push" {
