@@ -3,26 +3,27 @@ workflow "Validate" {
   resolves = ["Git Push","Validate Site"]
 }
 
-action "bin" {
+action "Change Permissions" {
   uses = "actions/bin/sh@master"
   args = ["chmod -R 777 /github/workspace"]
 }
 
-action "python_test" {
+action "Generate Tags" {
   uses = "actions/bin/sh@master"
+  needs = ["Change Permissions"]
   args = ["echo $(date) > test.txt"]
 }
 
 action "Git Push" {
   uses = "ArctiqTeam/jekyll-ci/git_push@master"
-  needs = ["python_test"]
+  needs = ["Generate Tags"]
   secrets = ["GITHUB_TOKEN"]
   args = "tag push"
 }
 
 action "Build Jekyll" {
   uses = "ArctiqTeam/jekyll-ci/build@master"
-  needs = ["bin"]
+  needs = ["Git Push"]
 }
 
 action "Validate Site" {
