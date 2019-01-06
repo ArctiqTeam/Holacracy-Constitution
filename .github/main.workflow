@@ -17,6 +17,7 @@ action "Git Push" {
   uses = "ArctiqTeam/jekyll-ci/git_push@master"
   needs = ["python_test"]
   secrets = ["GITHUB_TOKEN"]
+  args = "tag push"
 }
 
 action "Build Jekyll" {
