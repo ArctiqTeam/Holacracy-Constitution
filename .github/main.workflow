@@ -5,12 +5,12 @@ workflow "Validate" {
 
 action "bin" {
   uses = "actions/bin/sh@master"
-  args = ["mkdir _site && chmod -R 777 _site"]
+  args = ["mkdir _site && chmod -R 777 _site && ls -la"]
 }
 
 action "python_test" {
   uses = "actions/bin/sh@master"
-  args = ["echo $(date) > test.txt"]
+  args = ["echo $(date) > test.txt && ls -la"]
 }
 
 action "Git Push" {
