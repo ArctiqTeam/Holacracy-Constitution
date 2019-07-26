@@ -86,6 +86,8 @@ A Circle may add Accountabilities or Domains to its own Rep Link Role, as well a
 
 Each Circle with more than one Circle Member automatically includes a ***“Facilitator Role”*** and a ***“Secretary Role”***, with the definitions given in Appendix A. The person filling each becomes the Circle’s ***“Facilitator”*** and ***“Secretary”*** respectively when acting in that capacity.
 
+When filling in secretary and facilitator role you are responsible for providing fair notice (24-48hrs) to the team to step in and help fill in your role
+
 #### 1.6.1 Elections & Eligibility
 
 Upon request of any Circle Member, the Facilitator of a Circle will facilitate elections using the process and rules defined in Article 3 to elect one person into its Facilitator Role and one into its Secretary Role. No Role or Policy may assign these Roles or remove an assignment via any other means, nor modify the required process. The only candidates normally eligible for these elections are those Team Members filling Roles within the Circle. However, a Policy of the Circle or any Circle ultimately containing the Circle may allow additional candidates or further limit the candidates eligible for election.
