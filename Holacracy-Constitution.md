@@ -2,13 +2,13 @@
 
 ## Preamble
 
-This **_“Constitution”_** defines rules and processes for the governance and operations of an organization. The **_“Ratifiers”_** are adopting these rules as the formal authority structure for the **_“Organization”_** specified upon the Constitution’s adoption, which may be an entire entity or a part of one that the Ratifiers have authority to govern and run. The Ratifiers and anyone else who agrees to take part in the governance and operations of the Organization (its **_“Partners”_**) may rely upon the authorities granted by this Constitution, and also agree to be bound by its duties and constraints.
+This **_“Constitution”_** defines rules and processes for the governance and operations of an organization. The **_“Ratifiers”_** are adopting these rules as the formal authority structure for the **_“Organization”_** specified upon the Constitution’s adoption, which may be an entire entity or a part of one that the Ratifiers have authority to govern and run. The Ratifiers and anyone else who agrees to take part in the governance and operations of the Organization (its **_“Team Members”_**) may rely upon the authorities granted by this Constitution, and also agree to be bound by its duties and constraints.
 
 ## Article 1: Organizational Structure
 
 ### 1.1 Roles
 
-The Organization’s Partners will typically perform the work of the Organization while acting in explicitly defined Roles. A **_“Role”_** definition has a descriptive name and one or more of the following:
+The Organization’s Team Members will typically perform the work of the Organization while acting in explicitly defined Roles. A **_“Role”_** definition has a descriptive name and one or more of the following:
 
 - **(a)** a **_“Purpose”_**, which is a capacity, potential, or unrealizable goal that the Role will pursue or express on behalf of the Organization.
 - **(b)** one or more **_“Domains”_**, which are assets, processes, or other things the Role may exclusively control and regulate as its property, on behalf of the Organization.
@@ -22,7 +22,7 @@ A Role may control assignments into another Role as a Domain. Anyone filling a R
 
 #### 1.2.1 Eligibility
 
-A Role may only be assigned to a Partner of the Organization, or to someone who has agreed to enact all of the duties required of the assignment. A Role may be assigned to multiple people simultaneously. A Policy may further constrain Role assignments or assignment removals.
+A Role may only be assigned to a Team Member of the Organization, or to someone who has agreed to enact all of the duties required of the assignment. A Role may be assigned to multiple people simultaneously. A Policy may further constrain Role assignments or assignment removals.
 
 #### 1.2.2 Focusing an Assignment
 
@@ -30,7 +30,7 @@ A Role assigner may further focus an assignment on just a specific area or conte
 
 #### 1.2.3 Supporting Assignments
 
-As a Partner, when you serve as Role Lead for a Role, you may assign other people to fill the Role as well as ***Role Supporters***, and you may remove these assignments at any time. A Role Supporter gains the authorities of the Role, but only holds the duties to others when requested by a Role Lead, as further detailed in Article 2. You may only assign Role Supporters within your specific Role assignment focus, if any.
+As a Team Member, when you serve as Role Lead for a Role, you may assign other people to fill the Role as well as ***Role Supporters***, and you may remove these assignments at any time. A Role Supporter gains the authorities of the Role, but only holds the duties to others when requested by a Role Lead, as further detailed in Article 2. You may only assign Role Supporters within your specific Role assignment focus, if any.
 
 #### 1.2.4 Resigning from Roles
 
@@ -50,7 +50,7 @@ Once a Role controls a Domain, it may create its own Policies governing that Dom
 
 ### 1.4 Circle Leads
 
-Any Partner assigned to fill a Role also automatically fills a **_“Circle Lead Role”_** within that Role's internal Circle, and is thus a ***“Circle Lead”*** while acting in that capacity. The Circle Lead Role has the definition given in Appendix A, and also inherits the Purpose and any Accountabilities on the Circle itself. However, within the Circle this only applies to the extent that those Accountabilities have not been placed upon one of the Circle's Roles or otherwise delegated.
+Any Team Member assigned to fill a Role also automatically fills a **_“Circle Lead Role”_** within that Role's internal Circle, and is thus a ***“Circle Lead”*** while acting in that capacity. The Circle Lead Role has the definition given in Appendix A, and also inherits the Purpose and any Accountabilities on the Circle itself. However, within the Circle this only applies to the extent that those Accountabilities have not been placed upon one of the Circle's Roles or otherwise delegated.
 
 #### 1.4.1 Defining Priorities & Strategies
 
@@ -68,9 +68,9 @@ A Circle may not add Accountabilities or other functions to its own Circle Lead 
 
 Each Circle has a group of ***"Circle Members"*** who may represent its Roles in its Governance Process.
 
-By default, the Circle Members of a Circle include all Partners filling its Circle Lead Role, as well as each Partner serving as Role Lead for a Role within the Circle. If a Role has multiple Role Leads, a Circle may adopt a Policy to limit how many of them represent that Role as Circle Members in its Governance Process.
+By default, the Circle Members of a Circle include all Team Members filling its Circle Lead Role, as well as each Team Member serving as Role Lead for a Role within the Circle. If a Role has multiple Role Leads, a Circle may adopt a Policy to limit how many of them represent that Role as Circle Members in its Governance Process.
 
-A Circle may also adopt a Policy to invite an external Role to participate in its Governance Process, or to require one of its Sub-Circles to do so. While such a Policy exists, any Partners authorized to represent the invited Role as Circle Members within its own Circle also become Circle Members of the Circle so inviting.
+A Circle may also adopt a Policy to invite an external Role to participate in its Governance Process, or to require one of its Sub-Circles to do so. While such a Policy exists, any Team Members authorized to represent the invited Role as Circle Members within its own Circle also become Circle Members of the Circle so inviting.
 
 #### 1.5.1 Rep Links
 
@@ -86,9 +86,11 @@ A Circle may add Accountabilities or Domains to its own Rep Link Role, as well a
 
 Each Circle with more than one Circle Member automatically includes a ***“Facilitator Role”*** and a ***“Secretary Role”***, with the definitions given in Appendix A. The person filling each becomes the Circle’s ***“Facilitator”*** and ***“Secretary”*** respectively when acting in that capacity.
 
+When filling in secretary and facilitator role you are responsible for providing fair notice (24-48hrs) to the team to step in and help fill in your role
+
 #### 1.6.1 Elections & Eligibility
 
-Upon request of any Circle Member, the Facilitator of a Circle will facilitate elections using the process and rules defined in Article 3 to elect one person into its Facilitator Role and one into its Secretary Role. No Role or Policy may assign these Roles or remove an assignment via any other means, nor modify the required process. The only candidates normally eligible for these elections are those Partners filling Roles within the Circle. However, a Policy of the Circle or any Circle ultimately containing the Circle may allow additional candidates or further limit the candidates eligible for election.
+Upon request of any Circle Member, the Facilitator of a Circle will facilitate elections using the process and rules defined in Article 3 to elect one person into its Facilitator Role and one into its Secretary Role. No Role or Policy may assign these Roles or remove an assignment via any other means, nor modify the required process. The only candidates normally eligible for these elections are those Team Members filling Roles within the Circle. However, a Policy of the Circle or any Circle ultimately containing the Circle may allow additional candidates or further limit the candidates eligible for election.
 
 #### 1.6.2 Election Term
 
@@ -202,21 +204,21 @@ You have a duty to prioritize where to focus your attention and resources in ali
 
 ### 2.5 Working Agreements
 
-The Organization's Partners may make ***“Working Agreements”*** about how they will interact with each other or fulfill their general functions as Partners. Working Agreements are for shaping Partner behaviors that underpin Role-based work, and may not define expectations only relevant when a Partner is already energizing a specific Role, nor expectations around how a Partner will prioritize across different Roles. Working Agreements may only specify concrete acts to do or behavioral constraints to honor, and may not include promises to achieve specific outcomes or embody abstract qualities.
+The Organization's Team Members may make ***“Working Agreements”*** about how they will interact with each other or fulfill their general functions as Team Members. Working Agreements are for shaping Team Member behaviors that underpin Role-based work, and may not define expectations only relevant when a Team Member is already energizing a specific Role, nor expectations around how a Team Member will prioritize across different Roles. Working Agreements may only specify concrete acts to do or behavioral constraints to honor, and may not include promises to achieve specific outcomes or embody abstract qualities.
 
-You may request a Working Agreement of any Partner, either in service of a Role you fill or more generally as a Partner. That Partner may choose to accept or reject the requested Working Agreement based on their personal preferences. If accepted, that Partner has a duty to align their behavior with the agreement. A Partner who has agreed to a Working Agreement may later terminate it at any time without the consent of any other party, unless otherwise agreed in a relevant Working Agreement.
+You may request a Working Agreement of any Team Member, either in service of a Role you fill or more generally as a Team Member. That Team Member may choose to accept or reject the requested Working Agreement based on their personal preferences. If accepted, that Team Member has a duty to align their behavior with the agreement. A Team Member who has agreed to a Working Agreement may later terminate it at any time without the consent of any other party, unless otherwise agreed in a relevant Working Agreement.
 
 ### 2.6 Implicit Expectations Hold No Weight
 
-All of your responsibilities and constraints as a Partner of the Organization are defined in this Constitution, and in the Governance that results from it. No former or implicit expectations or constraints carry any weight or authority, unless a Circle’s Governance explicitly empowers them, or they come from a basic obligation or contractual agreement you personally have to or with the Organization.
+All of your responsibilities and constraints as a Team Member of the Organization are defined in this Constitution, and in the Governance that results from it. No former or implicit expectations or constraints carry any weight or authority, unless a Circle’s Governance explicitly empowers them, or they come from a basic obligation or contractual agreement you personally have to or with the Organization.
 
 ### 2.7 Tactical Meetings
 
-In service of one of their Roles, any Partner may convene a **_“Tactical Meeting”_** to facilitate engaging other Roles in their responsibilities and duties.
+In service of one of their Roles, any Team Member may convene a **_“Tactical Meeting”_** to facilitate engaging other Roles in their responsibilities and duties.
 
 #### 2.7.1 Attendance
 
-The Partner convening a Tactical Meeting must name the specific Roles invited to that Tactical Meeting, and the Role Leads of those Roles are invited to attend and participate in the meeting. The convener may also invite the Facilitator of a relevant Circle to lead the meeting. There is no advance notice or quorum required for a Tactical Meeting, unless a relevant Policy says otherwise.
+The Team Member convening a Tactical Meeting must name the specific Roles invited to that Tactical Meeting, and the Role Leads of those Roles are invited to attend and participate in the meeting. The convener may also invite the Facilitator of a relevant Circle to lead the meeting. There is no advance notice or quorum required for a Tactical Meeting, unless a relevant Policy says otherwise.
 
 #### 2.7.2 Facilitation & Process
 
@@ -238,7 +240,7 @@ If an unelected Role invited to a Tactical Meeting is unrepresented in the meeti
 
 ### 2.8 Individual Action
 
-As a Partner of the Organization, in some cases you are authorized to act outside of the authority of your Roles, or even to break the rules of this Constitution. By acting under this extended authority you are taking **_“Individual Action”_**, and you are bound by the following rules:
+As a Team Member of the Organization, in some cases you are authorized to act outside of the authority of your Roles, or even to break the rules of this Constitution. By acting under this extended authority you are taking **_“Individual Action”_**, and you are bound by the following rules:
 
 #### 2.8.1 Allowed Situations
 
@@ -251,7 +253,7 @@ You may only take Individual Action when all of the following are true:
 
 #### 2.8.2 Communication & Restoration
 
-Upon taking Individual Action, you have a duty to explain your action and the intent behind it to any Partner who fills a Role that may be significantly impacted. Upon the request of any of those Partners, you also have a duty to take any reasonable additional actions to assist in resolving any Tensions created by your Individual Action.
+Upon taking Individual Action, you have a duty to explain your action and the intent behind it to any Team Member who fills a Role that may be significantly impacted. Upon the request of any of those Team Members, you also have a duty to take any reasonable additional actions to assist in resolving any Tensions created by your Individual Action.
 
 If your Individual Action was effectively acting within another Role, or violated a Domain or a Policy, then you must cease from continuing to take similar Individual Action upon request of whoever normally controls that Role, Domain, or Policy, or upon request of a Circle Lead of the Circle holding the affected entity.
 
@@ -403,11 +405,11 @@ A Circle may adopt Policies to further constrain when or how Proposals or electi
 
 ### 3.5 Interpreting the Constitution & Governance
 
-As a Partner of the Organization, you may use your reasonable judgment to interpret this Constitution and any Governance within the Organization, including how these apply within a specific situation, and then act based on your interpretation. In so doing, you must interpret all Governance in the context of the Purpose and Accountabilities of the Circle containing it, and avoid using any interpretation that conflicts with that context.
+As a Team Member of the Organization, you may use your reasonable judgment to interpret this Constitution and any Governance within the Organization, including how these apply within a specific situation, and then act based on your interpretation. In so doing, you must interpret all Governance in the context of the Purpose and Accountabilities of the Circle containing it, and avoid using any interpretation that conflicts with that context.
 
 #### 3.5.1 Secretaries Resolve Interpretation Conflicts
 
-If your interpretation of Governance conflicts with another Partner's, either party may ask the Secretary of any affected Circle to rule on which interpretation to use. Once a Secretary has made such a ruling, it trumps your own and you are responsible for aligning with it until any underlying Governance changes.
+If your interpretation of Governance conflicts with another Team Member's, either party may ask the Secretary of any affected Circle to rule on which interpretation to use. Once a Secretary has made such a ruling, it trumps your own and you are responsible for aligning with it until any underlying Governance changes.
 
 A Circle’s Secretary may overrule an interpretation given by a Secretary of any Sub-Circle. If two Secretaries give conflicting rulings and one is from the Secretary of a Circle that ultimately contains the other Circle, then you are responsible for aligning with the interpretation given by the broader Circle’s Secretary.
 
@@ -419,14 +421,14 @@ A Secretary may only contradict previously published logic or interpretations on
 
 #### 3.5.3 Striking Invalid Governance
 
-Anyone filling a Role in a Circle may ask its Secretary to rule on the validity of any Governance of the Circle or any Role or Sub-Circle ultimately contained by the Circle. Upon such a request, if the Secretary concludes the Governance conflicts with the rules of this Constitution, the Secretary must then strike the offending Governance from the acting Governance record. After doing so, the Secretary must promptly communicate what was struck and why to all Partners filling Roles within the Circle that held the offending Governance.
+Anyone filling a Role in a Circle may ask its Secretary to rule on the validity of any Governance of the Circle or any Role or Sub-Circle ultimately contained by the Circle. Upon such a request, if the Secretary concludes the Governance conflicts with the rules of this Constitution, the Secretary must then strike the offending Governance from the acting Governance record. After doing so, the Secretary must promptly communicate what was struck and why to all Team Members filling Roles within the Circle that held the offending Governance.
 
 
 ## Article 4: Adoption Matters
 
 ### 4.1 Ratifiers Cede Authority
 
-By adopting this Constitution, the Ratifiers cede their authority to govern and run the Organization or direct its Partners, and may no longer do so except through authority granted to them under the Constitution’s rules and processes. However, as an exception to this rule, the Ratifiers may continue to hold and exercise any authority that they do not have the power to delegate, such as anything required by policies outside of their control, or by the Organization’s bylaws.
+By adopting this Constitution, the Ratifiers cede their authority to govern and run the Organization or direct its Team Members, and may no longer do so except through authority granted to them under the Constitution’s rules and processes. However, as an exception to this rule, the Ratifiers may continue to hold and exercise any authority that they do not have the power to delegate, such as anything required by policies outside of their control, or by the Organization’s bylaws.
 
 ### 4.2 Anchor Circle
 
@@ -491,7 +493,7 @@ However, if the Process Breakdown is not resolved within a reasonable timeframe,
 
 ### 4.5 Constitution Amendments and Repeal
 
-The Ratifiers or their successors may amend this Constitution or repeal it entirely, using whatever authority and process they relied upon to adopt it. Amendments must be in writing and published where all Partners of the Organization can access them.
+The Ratifiers or their successors may amend this Constitution or repeal it entirely, using whatever authority and process they relied upon to adopt it. Amendments must be in writing and published where all Team Members of the Organization can access them.
 
 ---
 
