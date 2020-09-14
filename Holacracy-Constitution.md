@@ -2,24 +2,16 @@
 
 ## Preamble
 
-<<<<<<< HEAD
-This **_“Constitution”_** defines rules and processes for the governance and operations of an organization. The **_“Ratifiers”_** are adopting these rules as the formal authority structure for the **_“Organization”_** specified upon the Constitution’s adoption, which may be an entire entity or a part of one that the Ratifiers have authority to govern and run. The Ratifiers and anyone else who agrees to take part in the governance and operations of the Organization (its **_“Team Members”_**) may rely upon the authorities granted by this Constitution, and also agree to be bound by its duties and constraints.
-=======
 The ***“Ratifiers”*** are adopting this ***“Constitution”*** as the formal authority structure of the specified ***“Organization”***. The Ratifiers and all other ***“Partners”*** that the Organization has engaged to take part in its governance and operations must do so in alignment with the rules and processes defined herein.
 
 The Ratifiers or their successors may amend this Constitution or repeal it using whatever authority they relied upon to adopt it. Amendments must be in writing and published to all Partners.
 
->>>>>>> upstream/master
 
 ## Article 1: Organizational Structure
 
 ### 1.1 Role Definition
 
-<<<<<<< HEAD
-The Organization’s Team Members will typically perform the work of the Organization while acting in explicitly defined Roles. A **_“Role”_** definition has a descriptive name and one or more of the following:
-=======
 A ***“Role”*** is an organizational construct that a person can fill and then energize on behalf of the Organization.  A Role definition consists of a descriptive name and one or more of the following:
->>>>>>> upstream/master
 
 - **(a)** a ***“Purpose”***, which is a capacity, potential, or goal that the Role will pursue or express.
 - **(b)** one or more ***“Domains”***, which are assets, processes, or other things the Role may exclusively control and regulate as its property, for its purpose.
@@ -33,13 +25,9 @@ A Role may control which person fills another Role through a Domain of Role assi
 
 #### 1.2.1 Default Assignment
 
-<<<<<<< HEAD
-A Role may only be assigned to a Team Member of the Organization, or to someone who has agreed to enact all of the duties required of the assignment. A Role may be assigned to multiple people simultaneously. A Policy may further constrain Role assignments or assignment removals.
-=======
 When a Role is unfilled, anyone who controls the assignment is automatically considered a Role Lead of the unfilled Role as well.
 
 When a Role is filled but not by anyone who is a Partner of the Organization, then any Partner who controls the assignment is automatically considered a Role Lead of that Role as well. However, this default assignment only applies to the extent that the non-Partners assigned to the Role are not actively fulfilling the relevant responsibilities and duties.
->>>>>>> upstream/master
 
 #### 1.2.2 Focusing an Assignment
 
@@ -47,11 +35,7 @@ A Role assigner may focus an assignment on only a specific area or context, if a
 
 ### 1.3 Responsibilities of Role-Filling
 
-<<<<<<< HEAD
-As a Team Member, when you serve as Role Lead for a Role, you may assign other people to fill the Role as well as ***Role Supporters***, and you may remove these assignments at any time. A Role Supporter gains the authorities of the Role, but only holds the duties to others when requested by a Role Lead, as further detailed in Article 2. You may only assign Role Supporters within your specific Role assignment focus, if any.
-=======
 When filling a Role, you have the following responsibilities:
->>>>>>> upstream/master
 
 #### 1.3.1 Processing Tensions
 
@@ -72,11 +56,7 @@ You are responsible for regularly defining Next-Actions for each of your Role's 
 
 You are responsible for capturing and tracking all Projects and Next-Actions for your Role in written lists. You must also track Tensions you intend to resolve, at least until you process them into Projects or Next-Actions. You are also responsible for regularly reviewing and updating these lists, to maintain them as a trusted source of the Role’s potential work.
 
-<<<<<<< HEAD
-Any Team Member assigned to fill a Role also automatically fills a **_“Circle Lead Role”_** within that Role's internal Circle, and is thus a ***“Circle Lead”*** while acting in that capacity. The Circle Lead Role has the definition given in Appendix A, and also inherits the Purpose and any Accountabilities on the Circle itself. However, within the Circle this only applies to the extent that those Accountabilities have not been placed upon one of the Circle's Roles or otherwise delegated.
-=======
 #### 1.3.5 Executing Next-Actions
->>>>>>> upstream/master
 
 Whenever you have time available to act in a Role, you are responsible for considering the Next-Actions you could take, and executing whichever would add the most value to the Organization.
 
@@ -94,15 +74,9 @@ A Role's inner Circle is considered a ***“Sub-Circle”*** of the broader Circ
 
 When a Circle grants a Domain to one of its Roles, any Role Lead for that Role may control that Domain on behalf of the Circle. A Circle may only grant Domains to its Roles that fall within the Circle's own Domains, or that are only relevant within its own internal processes.
 
-<<<<<<< HEAD
-By default, the Circle Members of a Circle include all Team Members filling its Circle Lead Role, as well as each Team Member serving as Role Lead for a Role within the Circle. If a Role has multiple Role Leads, a Circle may adopt a Policy to limit how many of them represent that Role as Circle Members in its Governance Process.
-
-A Circle may also adopt a Policy to invite an external Role to participate in its Governance Process, or to require one of its Sub-Circles to do so. While such a Policy exists, any Team Members authorized to represent the invited Role as Circle Members within its own Circle also become Circle Members of the Circle so inviting.
-=======
 Once a Role controls a Domain, it may create Policies governing that Domain within its own Governance. However, the Circle that delegated the Domain retains the right to define its own Policies governing that Domain as well. Any such Policies trump those defined by the Role in the event of a conflict.
 
 Granting a Domain to a Role does not delegate any rights the Circle has to control spending of money or assets, unless explicitly specified.
->>>>>>> upstream/master
 
 #### 1.4.3 Anchor Circle
 
@@ -118,17 +92,9 @@ Once linked into another Circle, a Role is considered part of the Governance of 
 
 A Circle may unlink a Role by removing the Policy that invited it to link, or by another mechanism defined in that Policy. A Role may also opt to remove itself from a Circle it linked into, unless a Policy within or acting upon the Role's Super-Circle says otherwise. Once unlinked from a Circle, any Governance added to the Role by that Circle is automatically removed.
 
-<<<<<<< HEAD
-When filling in secretary and facilitator role you are responsible for providing fair notice (24-48hrs) to the team to step in and help fill in your role
-
-#### 1.6.1 Elections & Eligibility
-
-Upon request of any Circle Member, the Facilitator of a Circle will facilitate elections using the process and rules defined in Article 3 to elect one person into its Facilitator Role and one into its Secretary Role. No Role or Policy may assign these Roles or remove an assignment via any other means, nor modify the required process. The only candidates normally eligible for these elections are those Team Members filling Roles within the Circle. However, a Policy of the Circle or any Circle ultimately containing the Circle may allow additional candidates or further limit the candidates eligible for election.
-=======
 ### 1.5 Circle Leads
 
 Anyone serving as a Role Lead for a Role also automatically fills a ***“Circle Lead Role”*** within that Role's internal Circle, and is thus a ***“Circle Lead”*** while acting in that capacity. The Circle Lead Role has the definition given in Appendix A. The Anchor Circle has no Circle Leads, unless a Policy of the Circle says otherwise.
->>>>>>> upstream/master
 
 #### 1.5.1 Defining Priorities & Strategies
 
@@ -244,42 +210,24 @@ A Policy may change this process in any way, or directly authorize a Role to con
 
 ### 4.2 Individual Initiative
 
-<<<<<<< HEAD
-The Organization's Team Members may make ***“Working Agreements”*** about how they will interact with each other or fulfill their general functions as Team Members. Working Agreements are for shaping Team Member behaviors that underpin Role-based work, and may not define expectations only relevant when a Team Member is already energizing a specific Role, nor expectations around how a Team Member will prioritize across different Roles. Working Agreements may only specify concrete acts to do or behavioral constraints to honor, and may not include promises to achieve specific outcomes or embody abstract qualities.
-
-You may request a Working Agreement of any Team Member, either in service of a Role you fill or more generally as a Team Member. That Team Member may choose to accept or reject the requested Working Agreement based on their personal preferences. If accepted, that Team Member has a duty to align their behavior with the agreement. A Team Member who has agreed to a Working Agreement may later terminate it at any time without the consent of any other party, unless otherwise agreed in a relevant Working Agreement.
-=======
 As a Partner of the Organization, in some cases you are authorized to take ***“Individual Initiative”*** by acting beyond the authority of your Roles or by breaking rules in this Constitution.
 
 #### 4.2.1 Allowed Situations
->>>>>>> upstream/master
 
 You may only take Individual Initiative when all of the following are true:
 
-<<<<<<< HEAD
-All of your responsibilities and constraints as a Team Member of the Organization are defined in this Constitution, and in the Governance that results from it. No former or implicit expectations or constraints carry any weight or authority, unless a Circle’s Governance explicitly empowers them, or they come from a basic obligation or contractual agreement you personally have to or with the Organization.
-=======
 - **(a)** You are acting in good faith to serve the Purpose or express the Accountabilities of some Role within the Organization.
 - **(b)** You believe your action would resolve or prevent more Tension for the Organization than it would likely create.
 - **(c)** Your action would not commit the Organization to any spending beyond what you’re already authorized to spend.
 - **(d)** If your action would violate any Policies or Domains, you believe much value would be lost from delaying to get permission or change Governance.
->>>>>>> upstream/master
 
 #### 4.2.2 Communication & Restoration
 
-<<<<<<< HEAD
-In service of one of their Roles, any Team Member may convene a **_“Tactical Meeting”_** to facilitate engaging other Roles in their responsibilities and duties.
-=======
 Upon taking Individual Initiative, you must explain your action to any Role Leads who you believe may be significantly affected. Upon request of any such Role Lead, you must take further actions to help resolve any Tensions created by your Individual Initiative. You must also refrain from taking similar Individual Initiative upon request of any such Role Lead.
->>>>>>> upstream/master
 
 You must prioritize the communication and restoration required by this section over your regular work. However, a Circle Lead of a Circle that contains all Roles affected by your action may change this default priority.
 
-<<<<<<< HEAD
-The Team Member convening a Tactical Meeting must name the specific Roles invited to that Tactical Meeting, and the Role Leads of those Roles are invited to attend and participate in the meeting. The convener may also invite the Facilitator of a relevant Circle to lead the meeting. There is no advance notice or quorum required for a Tactical Meeting, unless a relevant Policy says otherwise.
-=======
 ### 4.3 Navigating Legacy Power
->>>>>>> upstream/master
 
 Any existing policies and systems the Organization had in effect before adopting this Constitution continue in full force after adoption, even if they include authorities or constraints that were not created under the Constitution's processes. However, these legacy policies and systems may not be expanded or modified, and lose all weight and authority as soon as this Constitution's processes create something that replaces or contradicts them.
 
@@ -294,11 +242,7 @@ Changing a Circle's Governance requires using the ***“Governance Process”***
 
 Each Circle has a group of ***"Circle Members"*** who may represent its Roles in its Governance Process.
 
-<<<<<<< HEAD
-As a Team Member of the Organization, in some cases you are authorized to act outside of the authority of your Roles, or even to break the rules of this Constitution. By acting under this extended authority you are taking **_“Individual Action”_**, and you are bound by the following rules:
-=======
 A Circle's Circle Members are those Partners filling its Circle Lead Role, as well as each Partner serving as Role Lead for a Role in the Circle. If a Role has multiple Role Leads, a Circle may adopt a Policy to limit how many of them represent that Role as Circle Members in its Governance Process.
->>>>>>> upstream/master
 
 #### 5.1.1 Circle Reps
 
@@ -308,11 +252,7 @@ The Circle must use the Integrative Election Process defined herein to select a 
 
 The selected Circle Rep becomes a Circle Member of any Circle containing that Circle, with the authority to represent their Circle just like a Circle Lead. A containing Circle may limit or prevent these Circle Reps from becoming its Circle Members via a Policy, but only if its Roles have another way to enjoy comparable representation within that Circle.
 
-<<<<<<< HEAD
-Upon taking Individual Action, you have a duty to explain your action and the intent behind it to any Team Member who fills a Role that may be significantly impacted. Upon the request of any of those Team Members, you also have a duty to take any reasonable additional actions to assist in resolving any Tensions created by your Individual Action.
-=======
 A Circle may add Accountabilities or Domains to its own Circle Rep Role, as well as amend or remove those additions. No Circle may amend or remove the Purpose or any Accountabilities on the Circle Rep Role, nor remove the Role.
->>>>>>> upstream/master
 
 #### 5.1.2 Facilitator and Secretary
 
@@ -472,19 +412,11 @@ The Facilitator must enact the ***“Integrative Decision-Making Process”*** a
 
 ### 5.5 Conflicts of Interpretation
 
-<<<<<<< HEAD
-As a Team Member of the Organization, you may use your reasonable judgment to interpret this Constitution and any Governance within the Organization, including how these apply within a specific situation, and then act based on your interpretation. In so doing, you must interpret all Governance in the context of the Purpose and Accountabilities of the Circle containing it, and avoid using any interpretation that conflicts with that context.
-=======
 As a Partner, your interpretation of this Constitution and the Organization's Governance may sometimes conflict with another Partner's. When that happens, either party may ask the Secretary of any affected Circle to rule on which interpretation to use. Before a Secretary responds, each party may use their own interpretation. After a Secretary responds, everyone must align with that Secretary's ruling until the relevant text or context changes.
->>>>>>> upstream/master
 
 After ruling on an interpretation, a Secretary may publish the ruling and the logic behind it. If published, the Secretary of that Circle and any contained Circles must attempt to align with that logic in any future rulings. However, a Secretary may still contradict it once a compelling new circumstance renders the logic obsolete.
 
-<<<<<<< HEAD
-If your interpretation of Governance conflicts with another Team Member's, either party may ask the Secretary of any affected Circle to rule on which interpretation to use. Once a Secretary has made such a ruling, it trumps your own and you are responsible for aligning with it until any underlying Governance changes.
-=======
 You may appeal a Secretary's interpretation to the Secretary of any Super-Circle. A Super-Circle Secretary may overrule the interpretation of any Sub-Circle Secretary.
->>>>>>> upstream/master
 
 ### 5.6 Process Breakdown
 
@@ -496,11 +428,7 @@ A Circle's Facilitator may also declare a Process Breakdown in the Circle if a P
 
 #### 5.6.2 Process Restoration
 
-<<<<<<< HEAD
-Anyone filling a Role in a Circle may ask its Secretary to rule on the validity of any Governance of the Circle or any Role or Sub-Circle ultimately contained by the Circle. Upon such a request, if the Secretary concludes the Governance conflicts with the rules of this Constitution, the Secretary must then strike the offending Governance from the acting Governance record. After doing so, the Secretary must promptly communicate what was struck and why to all Team Members filling Roles within the Circle that held the offending Governance.
-=======
 Whenever an authorized party declares a Process Breakdown within a Circle, the following occurs:
->>>>>>> upstream/master
 
 - **(a)** the Facilitator gains the authority to judge the logic and relevance of any arguments made to validate Proposals or Objections in the Circle; and
 - **(b)** the Facilitator of the Super-Circle gains a Project to restore due-process within the Circle; and
@@ -511,11 +439,7 @@ These authorities end as soon as due process is restored in the Circle, as asses
 
 If the Circle in Process Breakdown has no Super-Circle, then the powers above all vest with its own Facilitator instead.
 
-<<<<<<< HEAD
-By adopting this Constitution, the Ratifiers cede their authority to govern and run the Organization or direct its Team Members, and may no longer do so except through authority granted to them under the Constitution’s rules and processes. However, as an exception to this rule, the Ratifiers may continue to hold and exercise any authority that they do not have the power to delegate, such as anything required by policies outside of their control, or by the Organization’s bylaws.
-=======
 #### 5.6.3 Escalation of Process Breakdown
->>>>>>> upstream/master
 
 A Process Breakdown in one Circle is not automatically considered a Process Breakdown of its Super-Circle. However, if it remains unresolved for an unreasonable time, then the Super-Circle is also considered in a Process Breakdown.
 
@@ -580,14 +504,10 @@ _The Circle Lead holds all Accountabilities on the Circle to the extent they are
 
 **Accountabilities:**
 
-<<<<<<< HEAD
-The Ratifiers or their successors may amend this Constitution or repeal it entirely, using whatever authority and process they relied upon to adopt it. Amendments must be in writing and published where all Team Members of the Organization can access them.
-=======
 - Scheduling Governance Meetings and Tactical Meetings for the Circle
 - Capturing and publishing the outputs of Governance Meetings and Tactical Meetings
 - Requesting elections for elected Roles after each term expires
 - Interpreting the Constitution and anything under its authority upon request
->>>>>>> upstream/master
 
 ---
 
