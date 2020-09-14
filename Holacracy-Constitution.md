@@ -2,9 +2,9 @@
 
 ## Preamble
 
-The ***“Ratifiers”*** are adopting this ***“Constitution”*** as the formal authority structure of the specified ***“Organization”***. The Ratifiers and all other ***“Partners”*** that the Organization has engaged to take part in its governance and operations must do so in alignment with the rules and processes defined herein.
+The ***“Ratifiers”*** are adopting this ***“Constitution”*** as the formal authority structure of the specified ***“Organization”***. The Ratifiers and all other ***“Team Members”*** that the Organization has engaged to take part in its governance and operations must do so in alignment with the rules and processes defined herein.
 
-The Ratifiers or their successors may amend this Constitution or repeal it using whatever authority they relied upon to adopt it. Amendments must be in writing and published to all Partners.
+The Ratifiers or their successors may amend this Constitution or repeal it using whatever authority they relied upon to adopt it. Amendments must be in writing and published to all Team Members.
 
 
 ## Article 1: Organizational Structure
@@ -27,7 +27,7 @@ A Role may control which person fills another Role through a Domain of Role assi
 
 When a Role is unfilled, anyone who controls the assignment is automatically considered a Role Lead of the unfilled Role as well.
 
-When a Role is filled but not by anyone who is a Partner of the Organization, then any Partner who controls the assignment is automatically considered a Role Lead of that Role as well. However, this default assignment only applies to the extent that the non-Partners assigned to the Role are not actively fulfilling the relevant responsibilities and duties.
+When a Role is filled but not by anyone who is a Team Member of the Organization, then any Team Member who controls the assignment is automatically considered a Role Lead of that Role as well. However, this default assignment only applies to the extent that the non-Team Members assigned to the Role are not actively fulfilling the relevant responsibilities and duties.
 
 #### 1.2.2 Focusing an Assignment
 
@@ -124,8 +124,8 @@ You have a duty to provide transparency in any of the following areas upon reque
 - **(a) Projects & Next-Actions:** You must share any Projects and Next-Actions you are tracking for your Roles.
 - **(b) Relative Priority:** You must share your judgment of the relative priority of any of your Role's Projects or Next-Actions vs. anything else competing for your attention.
 - **(c) Projections:** You must provide a projection of when you expect to complete any of your Role's Projects or Next-Actions. A rough estimate is enough, considering your current context and priorities. Detailed analysis or planning is not required, and this projection is not a commitment in any way. Unless Governance says otherwise, you have no duty to track the projection or follow-up with the recipient if it changes.
-- **(d) Checklist Items:** You must verify completion of any recurring actions that you perform for your Roles or as a Partner of the Organization. If requested, you must continue to share these verifications regularly, until you believe they are no longer useful.
-- **(e) Metrics:** You must share any metrics you collect in your Roles or as a Partner of the Organization. If requested, you must continue to share these metrics regularly, until you determine they are no longer useful.
+- **(d) Checklist Items:** You must verify completion of any recurring actions that you perform for your Roles or as a Team Member of the Organization. If requested, you must continue to share these verifications regularly, until you believe they are no longer useful.
+- **(e) Metrics:** You must share any metrics you collect in your Roles or as a Team Member of the Organization. If requested, you must continue to share these metrics regularly, until you determine they are no longer useful.
 - **(f) Progress Updates:** You must share a summary of progress you've made in your Role or towards any of your Role's Projects since the last update you shared. If requested, you must continue to share these updates regularly, until you determine they are no longer useful.
 
 ### 2.2 Duty of Processing
@@ -149,22 +149,22 @@ You have a duty to prioritize your attention in alignment with the following:
 
 ## Article 3: Tactical Meetings
 
-In service of a Role, any Partner may convene a ***“Tactical Meeting”*** to engage other Roles in their responsibilities and duties.
+In service of a Role, any Team Member may convene a ***“Tactical Meeting”*** to engage other Roles in their responsibilities and duties.
 
 ### 3.1 Attendance
 
-The Partner convening a Tactical Meeting must name the Roles desired in that meeting. All Partners serving as Role Leads of those Roles are then invited to attend, unless the convener narrows the invite to include only a subset of Role Leads for a Role.
+The Team Member convening a Tactical Meeting must name the Roles desired in that meeting. All Team Members serving as Role Leads of those Roles are then invited to attend, unless the convener narrows the invite to include only a subset of Role Leads for a Role.
 
 ### 3.2 Meeting Process
 
-The Partner convening a Tactical Meeting must find someone to facilitate it. Unless a Policy says otherwise, that person must use the following process:
+The Team Member convening a Tactical Meeting must find someone to facilitate it. Unless a Policy says otherwise, that person must use the following process:
 
 - **(a) Check-in Round:** Each participant in turn shares their current state, or offers another opening comment for the meeting. Responses are not allowed.
 - **(b) Checklist Review:** Each participant verifies completion of any recurring actions that they are regularly reporting on for their Roles in the meeting.
 - **(c) Metrics Review:** Each participant shares any metrics that they are regularly reporting on for their Roles in the meeting.
 - **(d) Progress Updates:** Each participant highlights progress in any Project or other initiative that they are regularly reporting on for their Roles in the meeting. Participants may only share progress made since a prior report, and not the general status of any work.
 - **(e) Build Agenda:** Participants build an agenda of items to process within the meeting. Each participant may add as many agenda items as desired by providing a short label for each, with no explanation or discussion allowed. Participants may add more agenda items after this step, between the processing of any existing agenda items.
-- **(f) Triage Tensions:** To process each agenda item, the agenda item owner may make requests of another participant, either in that participant's general capacity as a Partner, or to a Role that participant represents in the meeting. However, requests to a Role may only be made in service of a Role the requester represents in the meeting. The person facilitating the meeting manages the time allowed for each agenda item to allow space for the entire agenda, and may cut off processing any item after its due share of meeting time.
+- **(f) Triage Tensions:** To process each agenda item, the agenda item owner may make requests of another participant, either in that participant's general capacity as a Team Member, or to a Role that participant represents in the meeting. However, requests to a Role may only be made in service of a Role the requester represents in the meeting. The person facilitating the meeting manages the time allowed for each agenda item to allow space for the entire agenda, and may cut off processing any item after its due share of meeting time.
 - **(g) Closing Round:** Each participant in turn shares a closing reflection on the meeting. Responses are not allowed.
 
 A Policy of a Circle may specify an alternate process or amend this default process for Tactical Meetings called by any of the Circle's Roles.
@@ -176,7 +176,7 @@ If any Role defined by a Circle and invited to a Tactical Meeting is unrepresent
 
 ## Article 4: Power Shift
 
-By adopting this Constitution, the Ratifiers cede their power to govern and run the Organization into the rules and processes herein, except for any powers that the Ratifiers lack the authority to delegate. As a Partner, you may rely upon the authorities granted by this Constitution to the full extent the Ratifiers held such authorities before adopting it.
+By adopting this Constitution, the Ratifiers cede their power to govern and run the Organization into the rules and processes herein, except for any powers that the Ratifiers lack the authority to delegate. As a Team Member, you may rely upon the authorities granted by this Constitution to the full extent the Ratifiers held such authorities before adopting it.
 
 ### 4.1 Authority of Role Leads
 
@@ -204,13 +204,13 @@ When you need permission to impact a Domain, you may get it from whomever contro
 
 While energizing your Role, you may not spend any money or other assets unless you first get authorized to do so. This authorization must come from a Role or Circle that already has control of those resources for spending purposes. It counts as spending if you dispose of significant property of the Circle, or significantly limit any of its rights.
 
-To get authorized to spend, you must announce your intent to spend in writing to the Role or Circle you're seeking authorization from. You must share this announcement where all Partners serving as Role Leads of that Role or within that Circle will typically see it. Your statement must include the reason for the spending, and the Role you'll spend from. You must then wait a reasonable time to allow consideration and responses. Any recipient of your announcement may escalate the spending for extra consideration, and you may not proceed with the spending if escalated. However, a Role Lead or Circle Lead of the Role or Circle you're seeking authorization from may reverse an escalation, as may the person who escalated it. Once a reasonable time has passed and no escalations stand, your Role gains control of those resources. You may spend them for your stated purpose, or further authorize others to. The Role or Circle you got this authorization from also loses this control, however a Role Lead or Circle Lead of that Role or Circle may revoke the authorization at any time.
+To get authorized to spend, you must announce your intent to spend in writing to the Role or Circle you're seeking authorization from. You must share this announcement where all Team Members serving as Role Leads of that Role or within that Circle will typically see it. Your statement must include the reason for the spending, and the Role you'll spend from. You must then wait a reasonable time to allow consideration and responses. Any recipient of your announcement may escalate the spending for extra consideration, and you may not proceed with the spending if escalated. However, a Role Lead or Circle Lead of the Role or Circle you're seeking authorization from may reverse an escalation, as may the person who escalated it. Once a reasonable time has passed and no escalations stand, your Role gains control of those resources. You may spend them for your stated purpose, or further authorize others to. The Role or Circle you got this authorization from also loses this control, however a Role Lead or Circle Lead of that Role or Circle may revoke the authorization at any time.
 
 A Policy may change this process in any way, or directly authorize a Role to control spending of the Circle's resources.
 
 ### 4.2 Individual Initiative
 
-As a Partner of the Organization, in some cases you are authorized to take ***“Individual Initiative”*** by acting beyond the authority of your Roles or by breaking rules in this Constitution.
+As a Team Member of the Organization, in some cases you are authorized to take ***“Individual Initiative”*** by acting beyond the authority of your Roles or by breaking rules in this Constitution.
 
 #### 4.2.1 Allowed Situations
 
@@ -231,7 +231,7 @@ You must prioritize the communication and restoration required by this section o
 
 Any existing policies and systems the Organization had in effect before adopting this Constitution continue in full force after adoption, even if they include authorities or constraints that were not created under the Constitution's processes. However, these legacy policies and systems may not be expanded or modified, and lose all weight and authority as soon as this Constitution's processes create something that replaces or contradicts them.
 
-Beyond that, all of your responsibilities and constraints as a Partner of the Organization come from this Constitution and the outputs of its processes, and from your legal duties to the Organization and while acting on its behalf. No implicit expectations or constraints carry any weight or authority. Nor do any dictates issued under the Organization's old power structure before it adopted this Constitution.
+Beyond that, all of your responsibilities and constraints as a Team Member of the Organization come from this Constitution and the outputs of its processes, and from your legal duties to the Organization and while acting on its behalf. No implicit expectations or constraints carry any weight or authority. Nor do any dictates issued under the Organization's old power structure before it adopted this Constitution.
 
 
 ## Article 5: Governance
@@ -242,7 +242,7 @@ Changing a Circle's Governance requires using the ***“Governance Process”***
 
 Each Circle has a group of ***"Circle Members"*** who may represent its Roles in its Governance Process.
 
-A Circle's Circle Members are those Partners filling its Circle Lead Role, as well as each Partner serving as Role Lead for a Role in the Circle. If a Role has multiple Role Leads, a Circle may adopt a Policy to limit how many of them represent that Role as Circle Members in its Governance Process.
+A Circle's Circle Members are those Team Members filling its Circle Lead Role, as well as each Team Member serving as Role Lead for a Role in the Circle. If a Role has multiple Role Leads, a Circle may adopt a Policy to limit how many of them represent that Role as Circle Members in its Governance Process.
 
 #### 5.1.1 Circle Reps
 
@@ -261,6 +261,8 @@ Any Circle with more than one Circle Member includes a ***“Facilitator Role”
 The Circle must use the Integrative Election Process defined herein to select a Facilitator and Secretary. No Role or Policy may assign these Roles or remove an assignment via any other means, nor change this required process. Normally, the only candidates eligible for these elections are a Circle's Circle Members. However, a Policy of the Circle or any Super-Circle may add or limit eligible candidates.
 
 A Circle may add Accountabilities or Domains to its own Facilitator or Secretary Role, as well as amend or remove those additions. No Circle may amend or remove the Purpose, Domain, or any Accountabilities on either Role, nor remove the Role.
+
+A Team Member holding Secretary or Facilitator role must provide fair notice (24-47 hours) to other Circle Members in order to seek out help to fill in for a Tactical or Governance meeting if they cannot attend.
 
 ### 5.2 Scope of Governance
 
@@ -287,7 +289,7 @@ A Policy that grants or constrains authority applies in all Sub-Circles as well,
 
 #### 5.2.2 Striking Invalid Governance
 
-Any Partner may ask a Circle's Secretary to rule on the validity of any Governance within that Circle or any Sub-Circle thereof. If the Secretary concludes it violates the rules of this Constitution, the Secretary must strike it from the Circle's records. After doing so, the Secretary must promptly communicate what they struck and why to all of that Circle's Circle Members.
+Any Team Member may ask a Circle's Secretary to rule on the validity of any Governance within that Circle or any Sub-Circle thereof. If the Secretary concludes it violates the rules of this Constitution, the Secretary must strike it from the Circle's records. After doing so, the Secretary must promptly communicate what they struck and why to all of that Circle's Circle Members.
 
 ### 5.3 Governance Process
 
@@ -367,7 +369,7 @@ The Circle's Secretary is responsible for scheduling its Governance Meetings, an
 
 All Circle Members of a Circle may participate in its Governance Meetings. The acting Facilitator and Secretary may also participate even if they are not Circle Members of the Circle. In that case, they become temporary Circle Members for the duration of the meeting.
 
-As a Circle Rep for a Circle, you may invite any Partner to join the Governance Meeting of any Circle immediately containing your Circle. You may only extend this invitation to one Partner at a time, and only to aid in the processing of a specific Tension affecting the Circle you represent. You must sense this Tension yourself as well, and believe it makes sense to process in the Circle. Your invited guest becomes a temporary Circle Member for the duration of the meeting, or until you withdraw the invitation. Your guest may represent your Circle along with you in the meeting, but only while processing that specific Tension.
+As a Circle Rep for a Circle, you may invite any Team Member to join the Governance Meeting of any Circle immediately containing your Circle. You may only extend this invitation to one Team Member at a time, and only to aid in the processing of a specific Tension affecting the Circle you represent. You must sense this Tension yourself as well, and believe it makes sense to process in the Circle. Your invited guest becomes a temporary Circle Member for the duration of the meeting, or until you withdraw the invitation. Your guest may represent your Circle along with you in the meeting, but only while processing that specific Tension.
 
 Beyond the above, no one else may participate in a Circle’s Governance Meetings.
 
@@ -412,7 +414,7 @@ The Facilitator must enact the ***“Integrative Decision-Making Process”*** a
 
 ### 5.5 Conflicts of Interpretation
 
-As a Partner, your interpretation of this Constitution and the Organization's Governance may sometimes conflict with another Partner's. When that happens, either party may ask the Secretary of any affected Circle to rule on which interpretation to use. Before a Secretary responds, each party may use their own interpretation. After a Secretary responds, everyone must align with that Secretary's ruling until the relevant text or context changes.
+As a Team Member, your interpretation of this Constitution and the Organization's Governance may sometimes conflict with another Team Member's. When that happens, either party may ask the Secretary of any affected Circle to rule on which interpretation to use. Before a Secretary responds, each party may use their own interpretation. After a Secretary responds, everyone must align with that Secretary's ruling until the relevant text or context changes.
 
 After ruling on an interpretation, a Secretary may publish the ruling and the logic behind it. If published, the Secretary of that Circle and any contained Circles must attempt to align with that logic in any future rulings. However, a Secretary may still contradict it once a compelling new circumstance renders the logic obsolete.
 
@@ -446,17 +448,17 @@ A Process Breakdown in one Circle is not automatically considered a Process Brea
 
 ## Article 6: People & Partnership
 
-### 6.1 Partner Relationships
+### 6.1 Team Member Relationships
 
-The Organization may grant Partner status to anyone who has agreed to abide by all relevant terms of this Constitution. This creates a ***“Partner Relationship”*** between that person and the Organization. Any promises either party makes to the other in conjunction with the grant of Partner status are part of that Partner Relationship. Unless otherwise agreed, each party needs the other's consent to change these agreements. However, either party may still end the Partner Relationship without the consent of the other. Doing so immediately ends that person's rights and responsibilities as a Partner.
+The Organization may grant Team Member status to anyone who has agreed to abide by all relevant terms of this Constitution. This creates a ***“Team Member Relationship”*** between that person and the Organization. Any promises either party makes to the other in conjunction with the grant of Team Member status are part of that Team Member Relationship. Unless otherwise agreed, each party needs the other's consent to change these agreements. However, either party may still end the Team Member Relationship without the consent of the other. Doing so immediately ends that person's rights and responsibilities as a Team Member.
 
 ### 6.2 Working Agreements
 
-The Organization's Partners may make ***“Working Agreements”*** with each other. These are agreements about how the Partners will relate together or fulfill their general functions as Partners. They must focus on shaping behaviors that generally underpin work. They may not set expectations of work to do in a Role, nor expectations about how a Partner will prioritize across different Roles. Further, they may only specify concrete acts to do or behavioral constraints to honor. They may not include promises to achieve specific outcomes or embody abstract qualities.
+The Organization's Team Members may make ***“Working Agreements”*** with each other. These are agreements about how the Team Members will relate together or fulfill their general functions as Team Members. They must focus on shaping behaviors that generally underpin work. They may not set expectations of work to do in a Role, nor expectations about how a Team Member will prioritize across different Roles. Further, they may only specify concrete acts to do or behavioral constraints to honor. They may not include promises to achieve specific outcomes or embody abstract qualities.
 
-As a Partner, you may request a Working Agreement of another Partner for your own personal preferences or to serve a Role you fill. That Partner may accept or reject the requested Working Agreement based on their own personal preferences. Either party may later terminate the agreement without the consent of the other party, unless otherwise agreed.
+As a Team Member, you may request a Working Agreement of another Team Member for your own personal preferences or to serve a Role you fill. That Team Member may accept or reject the requested Working Agreement based on their own personal preferences. Either party may later terminate the agreement without the consent of the other party, unless otherwise agreed.
 
-As a Partner, you have a duty to align your behavior with any Working Agreements you have made. Anyone facilitating a meeting or process may also enforce Working Agreements during that meeting or process, as long as they don't conflict with anything defined in this Constitution.
+As a Team Member, you have a duty to align your behavior with any Working Agreements you have made. Anyone facilitating a meeting or process may also enforce Working Agreements during that meeting or process, as long as they don't conflict with anything defined in this Constitution.
 
 ---
 
